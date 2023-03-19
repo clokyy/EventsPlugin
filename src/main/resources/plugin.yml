@@ -1,0 +1,40 @@
+name: EventsPlugin
+version: '${project.version}'
+main: org.clokyy.eventsplugin.EventsPlugin
+api-version: 1.19
+commands:
+  event:
+    description: Starts an event
+    usage: /event start
+    aliases: [ start ]
+    permission: event.tp
+  config:
+    event-coordinates:
+      x: 100
+      y: 64
+      z: 100
+  tp:
+    description: Teleport to the event location
+    usage: /event tp
+  end:
+      description: Ends event
+      usage: /event end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
